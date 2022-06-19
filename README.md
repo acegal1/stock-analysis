@@ -1,9 +1,9 @@
 # stock-analysis
 
-'Module 2 VBA Chanllenge with Refactor code of stock-analysis.
+Module 2 VBA Chanllenge with Refactor code of stock-analysis.
 
-'New assignment consists of one technical deliverable and a written report
-'Deliverable 1: Refactor VBA code and measure performance
+New assignment consists of one technical deliverable and a written report
+Deliverable 1: Refactor VBA code and measure performance
 		'This deliverable will include an updated workbook and a folder with PNGs of the pop-ups with script run time
 'Deliverable 2: A written analysis of your results (README.md)
 
@@ -31,11 +31,11 @@ Additional macros included are DQ, ClearWorksheet, oldStockAnslysis, rowsbloops 
 Steve requested the total daily volume and yearly return for each stock.  The yearly return is the percentage difference in price from the beginning of the year to the end of the year.
  
 Since his parents had invested in DQ, the stock was the first to be analysis.  The analysis of stock for DQ found that the stock for DAQO New Energy Corp did have a great return in 2017 with 199.45% but 2018 not have good returns for 2018. The end of year return found a decrease of price of -62% 
-![DQ_20172018](DQ_20172018.png)
+![DQ_20172018](https://github.com/acegal1/stock-analysis/blob/main/Resources/DQ_20172018.png)
 
 Below is the original DQ Analysis code.
 Code for DQ Analysis
-![DQAnalysis.png](DQAnalysis.png)
+![DQAnalysis.png](https://github.com/acegal1/stock-analysis/blob/main/Resources/DQAnalysis.png)
 
 ## All Stock Analysis 
 Now to modfiy code to show all stocks. As per Steve and his parents request, I will analyze multiple stocks options to find out good return for them
@@ -74,7 +74,7 @@ Sheets(yearValue).Activate
 ## Results
 The result analysis of all stocks by calulating the total daily volume and yearly return, a couple of good green stocks investment would be stock ENPH with 81.9% and RUN with 84% returns.
 
-![2018.png](2018.png)
+![2018.png](https://github.com/acegal1/stock-analysis/blob/main/Resources/2018.png)
 
 
 ## VBA Code Measure Performance
@@ -234,19 +234,19 @@ The code was further modified so Steve could run the analysis for either 2017 or
 Below shows 2017 comparison: 
 
 2017 Refactored data measurement.
-![Refactored 2017](VBA_Challenge_2017.png)
+![Refactored 2017](https://github.com/acegal1/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 2017 Original data measurement.
-![Original 2017](All_Stocks_2017.png)
+![Original 2017](https://github.com/acegal1/stock-analysis/blob/main/Resources/All_Stocks_2017.png)
 
 
 Below shows 2018 comparison: 
 
 2018 data mesurement
-![Redfactored 2018](VBA_Challenge_2018.png)
+![Redfactored 2018](https://github.com/acegal1/stock-analysis/blob/main/Resources/VBA_Challenge_%202018.png)
 
 2018 Original data measurement.
-![Original 2018](All_Stocks_2017.png)
+![Original 2018](https://github.com/acegal1/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 We can finally conclude that refactoring code screen running time is less then the original script for both the years and the refactoring is more easier to understand and read.
 
