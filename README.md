@@ -1,11 +1,11 @@
 # stock-analysis
 
-'Module 2 VBA Chanllenge with Refactor code of stock-analysis.
+Module 2 VBA Chanllenge with Refactor code of stock-analysis.
 
-'New assignment consists of one technical deliverable and a written report
-'Deliverable 1: Refactor VBA code and measure performance
+New assignment consists of one technical deliverable and a written report
+Deliverable 1: Refactor VBA code and measure performance
 		'This deliverable will include an updated workbook and a folder with PNGs of the pop-ups with script run time
-'Deliverable 2: A written analysis of your results (README.md)
+Deliverable 2: A written analysis of your results (README.md)
 
 ## Overview of Project Stock Analysis
 
