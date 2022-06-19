@@ -1,6 +1,6 @@
 # stock-analysis
 
-Module 2 VBA Chanllenge with Refactor code of stock-analysis.
+Module 2 VBA Challenge with Refactor code of stock-analysis.
 
 New assignment consists of one technical deliverable and a written report
 Deliverable 1: Refactor VBA code and measure performance
@@ -9,22 +9,22 @@ Deliverable 2: A written analysis of your results (README.md)
 
 ## Overview of Project Stock Analysis
 
-Performning a refractor of VB code created for The Stock Analysis project, this project will also measure performance.
+Performing a refractor of VB code created for The Stock Analysis project, this project will also measure performance.
 
 The Stock Analysis project began with assisting Steve and his parents request to analyze performance if their investment of a green stock DAQO New Energy Corp. DAQO's ticker symbol is "DQ". 
 
-In order to analyze stock performance of "DQ" stock, data was collected for eleven additional green stocks for the years of 2017 and 2018.  
+To analyze stock performance of "DQ" stock, data was collected for eleven additional green stocks for the years of 2017 and 2018.  
 
 Both Steve and his parents requested additional analysis to include all twelve green stocks options to find out returns.  
 
-Visual Basic for Applications or VBA was implmented in the analysis of the stock data and is considered a good tool for the financial industry due to it's ease of automating tasks while reducing both errors and time required to run analysis. 
+Visual Basic for Applications or VBA was implemented in the analysis of the stock data and is considered a good tool for the financial industry due to its ease of automating tasks while reducing both errors and time required to run analysis. 
 
 
 ## Purpose
-Performning a refractor of VB code created for The Stock Analysis project that will also measure performance between original macro created against refractor macro. To view VB code open VBA_Challenge.xlsm and use Developer module.  
+Performing a refractor of VB code created for The Stock Analysis project; that will also measure performance between original macro created against refractor macro. To view VB code open VBA_Challenge.xlsm and use Developer module.  
 Original macro  named AllStocksAnalysis
 Refractor macro named AllStocksAnalysisRefactored
-Additional macros included are DQ, ClearWorksheet, oldStockAnslysis, rowsbloops and skilldrill - all part of Module 2 work. 
+Additional macros included are DQ, ClearWorksheet, rowsbloops and skilldrill - all part of Module 2 work. 
 
 ## DQ Analysis 
 
@@ -38,7 +38,7 @@ Code for DQ Analysis
 ![DQAnalysis.png](https://github.com/acegal1/stock-analysis/blob/main/Resources/DQAnalysis.png)
 
 ## All Stock Analysis 
-Now to modfiy code to show all stocks. As per Steve and his parents request, I will analyze multiple stocks options to find out good return for them
+Now to modify code to show all stocks. As per Steve and his parents request, I will analyze multiple stocks options to find out good return for them
 We define new sub as All stocks analysis for further coding important part that shows loop through tickers
 
 '5) Loop through rows in the data.
@@ -62,7 +62,7 @@ Sheets(yearValue).Activate
     End If
     
     
-'5c)Find the ending price for the current ticker.
+'5c) Find the ending price for the current ticker.
     
     If Cells(j + 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
     
@@ -72,7 +72,7 @@ Sheets(yearValue).Activate
 	
 
 ## Results
-The result analysis of all stocks by calulating the total daily volume and yearly return, a couple of good green stocks investment would be stock ENPH with 81.9% and RUN with 84% returns.
+The result analysis of all stocks by calculating the total daily volume and yearly return, a couple of good green stocks investment would be stock ENPH with 81.9% and RUN with 84% returns.
 
 ![2018.png](https://github.com/acegal1/stock-analysis/blob/main/Resources/2018.png)
 
@@ -242,21 +242,21 @@ Below shows 2017 comparison:
 
 Below shows 2018 comparison: 
 
-2018 data mesurement
+2018 data measurement.
 ![Redfactored 2018](https://github.com/acegal1/stock-analysis/blob/main/Resources/VBA_Challenge_%202018.png)
 
 2018 Original data measurement.
 ![Original 2018](https://github.com/acegal1/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
-We can finally conclude that refactoring code screen running time is less then the original script for both the years and the refactoring is more easier to understand and read.
+We can finally conclude that refactoring code screen running time is less than the original script for both the years and the refactoring is easier to understand and read.
 
 
 #Summary 
 The VB code created can be modified so if in the future both Steve and his parents would like to run analysis of future stock investments it can be done.  The macro for running multiple stocks and different years is very flexible. 
-Included in the code is a program that can quickly loop throug all the tickers. Then additional format of tables was included to make stock reasults eaiser to read and used the color of red and green.  
+Included in the code is a program that can quickly loop through all the tickers. Then additional format of tables was included to make stock results easier to read and used the color of red and green.  
 
 What are the advantages or disadvantages of refactoring code?
-The advantage of using and refactoring code is I am able to produce analysis and run the  code  faster and utilize less resources.  Also refactor code is easier to read and follow.
+The advantage of using and refactoring code is I am able to produce analysis and run the code faster and utilize less resources.  Also refactor code is easier to read and follow.
 The only disadvantage is to refactor or write code is time consuming and very complex in VB.
 
 'How do these pros and cons apply to refactoring the original VBA script?
