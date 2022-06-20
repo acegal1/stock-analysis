@@ -71,17 +71,17 @@ Sheets(yearValue).Activate
     End If
 	
 
-## Results
+Results
 The result analysis of all stocks by calculating the total daily volume and yearly return, a couple of good green stocks investment would be stock ENPH with 81.9% and RUN with 84% returns.
 
 ![2018.png](https://github.com/acegal1/stock-analysis/blob/main/Resources/2018.png)
 
 
 ## VBA Code Measure Performance
-Refactoring code we do analysis to understand what to invest in. -Refactoring is a key part of the coding process. Below is the refactor code:
+Refactoring code we do analysis to understand what to invest in. Refactoring is a key part of the coding process. Below is the refactor code:
 
-Sub AllStocksAnalysisRefactored()
-==============================================================================
+## Sub AllStocksAnalysisRefactored()
+=====================================
 	Dim startTime As Single
 	Dim endTime  As Single
 
@@ -228,24 +228,31 @@ Sub AllStocksAnalysisRefactored()
 	End Sub
 		
 
-==============================================================================
+================
+# Note:
+
 The code was further modified so Steve could run the analysis for either 2017 or 2018 on all stocks. Results include comparison of refactored code to original code. 
 
 Below shows 2017 comparison: 
 
 2017 Refactored data measurement.
+
 ![Refactored 2017](https://github.com/acegal1/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
+
 2017 Original data measurement.
+
 ![Original 2017](https://github.com/acegal1/stock-analysis/blob/main/Resources/All_Stocks_2017.png)
 
 
 Below shows 2018 comparison: 
 
 2018 data measurement.
+
 ![Redfactored 2018](https://github.com/acegal1/stock-analysis/blob/main/Resources/VBA_Challenge_%202018.png)
 
 2018 Original data measurement.
+
 ![Original 2018](https://github.com/acegal1/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 We can finally conclude that refactoring code screen running time is less than the original script for both the years and the refactoring is easier to understand and read.
@@ -259,6 +266,6 @@ What are the advantages or disadvantages of refactoring code?
 The advantage of using and refactoring code is I am able to produce analysis and run the code faster and utilize less resources.  Also refactor code is easier to read and follow.
 The only disadvantage is to refactor or write code is time consuming and very complex in VB.
 
-'How do these pros and cons apply to refactoring the original VBA script?
+How do these pros and cons apply to refactoring the original VBA script?
 The refactoring of code was complex structure and had to google and use youtube to fully complete the assignment.
 
