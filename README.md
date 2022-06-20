@@ -22,19 +22,23 @@ Visual Basic for Applications or VBA was implemented in the analysis of the stoc
 
 ## Purpose
 Performing a refractor of VB code created for The Stock Analysis project; that will also measure performance between original macro created against refractor macro. To view VB code open VBA_Challenge.xlsm and use Developer module.  
-Original macro  named AllStocksAnalysis
-Refractor macro named AllStocksAnalysisRefactored
+
+Original macro  named AllStocksAnalysis and Refractor macro named AllStocksAnalysisRefactored
+
 Additional macros included are DQ, ClearWorksheet, rowsbloops and skilldrill - all part of Module 2 work. 
 
 ## DQ Analysis 
 
 Steve requested the total daily volume and yearly return for each stock.  The yearly return is the percentage difference in price from the beginning of the year to the end of the year.
  
-Since his parents had invested in DQ, the stock was the first to be analysis.  The analysis of stock for DQ found that the stock for DAQO New Energy Corp did have a great return in 2017 with 199.45% but 2018 not have good returns for 2018. The end of year return found a decrease of price of -62% 
+Since his parents had invested in DQ, the stock was the first to be analysis.  The analysis of stock for DQ found that the stock for DAQO New Energy Corp did have a great return in 2017 with 199.45% but 2018 not have good returns for 2018. The end of year return found a decrease of price of -62%.
+
+
 ![DQ_20172018](https://github.com/acegal1/stock-analysis/blob/main/Resources/DQ_20172018.png)
 
 Below is the original DQ Analysis code.
-Code for DQ Analysis
+Code for DQ Analysis:
+
 ![DQAnalysis.png](https://github.com/acegal1/stock-analysis/blob/main/Resources/DQAnalysis.png)
 
 ## All Stock Analysis 
@@ -46,14 +50,14 @@ We define new sub as All stocks analysis for further coding important part that 
 Sheets(yearValue).Activate
     For j = 2 To RowCount
    
-'5a) Get the total volume for the current ticker.
+'a) Get the total volume for the current ticker.
     If Cells(j, 1).Value = ticker Then
     
         totalVolume = totalVolume + Cells(j, 8).Value
         
      End If
         
-'5b) Get the starting price for the current ticker.
+'b) Get the starting price for the current ticker.
 
     If Cells(j - 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
     
@@ -62,7 +66,7 @@ Sheets(yearValue).Activate
     End If
     
     
-'5c) Find the ending price for the current ticker.
+'c) Find the ending price for the current ticker.
     
     If Cells(j + 1, 1).Value <> ticker And Cells(j, 1).Value = ticker Then
     
@@ -71,13 +75,14 @@ Sheets(yearValue).Activate
     End If
 	
 
-Results
+## Results:
+
 The result analysis of all stocks by calculating the total daily volume and yearly return, a couple of good green stocks investment would be stock ENPH with 81.9% and RUN with 84% returns.
 
 ![2018.png](https://github.com/acegal1/stock-analysis/blob/main/Resources/2018.png)
 
 
-## VBA Code Measure Performance
+## VBA Code Measure Performance:
 Refactoring code we do analysis to understand what to invest in. Refactoring is a key part of the coding process. Below is the refactor code:
 
 ## Sub AllStocksAnalysisRefactored()
